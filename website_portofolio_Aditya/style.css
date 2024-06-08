@@ -1,0 +1,820 @@
+/* cdn font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Caesar+Dressing&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Caesar+Dressing&family=Creepster&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedan+SC&display=swap");
+@import url("https://fonts.cdnfonts.com/css/grape-nuts");
+@import url("https://fonts.cdnfonts.com/css/nightmare-in-bolloland");
+@import url("https://fonts.cdnfonts.com/css/stranger");
+@import url("https://fonts.cdnfonts.com/css/k1996-j");
+@import url("https://fonts.cdnfonts.com/css/amateur-dirty");
+@import url("https://fonts.cdnfonts.com/css/hawkeye");
+@import url("https://fonts.cdnfonts.com/css/megah-diterima");
+@import url("https://fonts.cdnfonts.com/css/the-saroja");
+/* cdn font */
+
+@media only screen and (max-width: 950px) {
+  .img-2 {
+    width: 100%;
+    height: auto;
+    animation: animateBg 5s linear infinite;
+  }
+}
+/* navbar */
+.img-1 {
+  width: 80px;
+}
+.ditya-font {
+  font-size: 20px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.ditya-font-1 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+  filter: drop-shadow(0px 0px 2px white);
+  padding-left: 40px;
+}
+.navbar {
+ background: transparent;
+}
+.link-a-color {
+  color: white;
+  filter: drop-shadow(0px 0px 1px white);
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.link-a-color:hover {
+  filter: drop-shadow(0px 0px 10px white);
+  text-decoration: underline;
+  transition-duration: 0.3s;
+}
+.font-14 {
+  font-size: 15px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+/* navbar akhir */
+
+/* jumbruton-1 */
+.jumbroton-1 {
+  background: url(img/Foto/bg-jumbroton.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  animation: animateBg 10s linear infinite;
+}
+@keyframes animateBg {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+.body-utama {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.font-1 {
+  color: white;
+  font-weight: 800;
+  font-size: 45px;
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+}
+.font-2 {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-family: "Permanent Marker", cursive;
+  animation: animateBg 3s linear infinite;
+  filter: drop-shadow(0px 0px 5px rgb(60, 0, 255));
+}
+.bg {
+  background-color: black;
+}
+.btn-1 {
+  background: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Mochiy Pop One", sans-serif;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px white;
+}
+.btn-1:hover {
+  color: rgb(204, 204, 204);
+}
+.bi-1 {
+  margin-left: 13px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+/* akhir jumbruton-1 */
+
+/* profail */
+.portofolio-profile-1 {
+  background-color: rgb(0, 0, 0);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.font-4 {
+  font-size: 34px;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+.bi-2 {
+  font-size: 25px;
+  color: rgb(204, 255, 0);
+}
+.bi-3 {
+  font-size: 33px;
+  color: rgb(204, 255, 0);
+  filter: drop-shadow(0px 0px 20px rgb(255, 255, 255));
+}
+.bi-4 {
+  font-size: 25px;
+  color: rgb(204, 255, 0);
+}
+.span-1 {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Bungee", sans-serif;
+  color: rgb(107, 117, 234);
+  filter: drop-shadow(0px 0px 110px rgb(104, 152, 235));
+}
+.bi-5 {
+  font-size: 29px;
+  padding-left: 10px;
+  color: white;
+}
+.bio-situs {
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.bi-6 {
+  color: rgb(141, 231, 135);
+}
+.bi-7 {
+  color: rgb(192, 14, 153);
+}
+.bi-8 {
+  color: brown;
+}
+/* icon */
+.span-1-icon {
+  color: white;
+  padding-left: 15px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.b:hover {
+  border: none;
+  border-bottom: 2px solid rgb(141, 231, 135);
+  transition-duration: 0.2s;
+}
+.b-1:hover {
+  border: none;
+  border-bottom: 2px solid rgb(192, 14, 153);
+  transition-duration: 0.2s;
+}
+.b-2:hover {
+  border: none;
+  border-bottom: 2px solid brown;
+  transition-duration: 0.2s;
+}
+/* icon */
+.bi-9 {
+  font-size: 30px;
+  color: rgb(141, 231, 135);
+  margin-left: 20px;
+}
+.bi-10 {
+  font-size: 30px;
+  color: rgb(192, 14, 153);
+  margin-left: 15px;
+}
+.bi-11 {
+  font-size: 30px;
+  color: brown;
+  margin-left: 26px;
+}
+.q {
+  font-size: 30px;
+  padding-left: 10px;
+  transition: 0.2s;
+}
+.q:hover {
+  filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
+}
+.gitub {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 130px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px;
+  transition-duration: 0.2s;
+}
+.gitub:hover {
+  filter: drop-shadow(0px 0px 5px white);
+  transition-duration: 0.2s;
+}
+.gitub a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Caesar Dressing", system-ui;
+}
+.aiken-githp {
+  color: black;
+  margin-left: 22px;
+}
+.body-luar {
+  background: transparent;
+  filter: drop-shadow(0px 0px 50px rgb(126, 11, 11));
+}
+.font5 {
+  font-size: 37px;
+  font-weight: 800;
+  font-style: normal;
+  color: black;
+  filter: drop-shadow(0px 0px 8px white);
+  font-family: "Creepster", system-ui;
+}
+.dalam-div-portofolio {
+  height: 710px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+.img-2 {
+  object-fit: cover;
+  animation: animateBg 5s linear infinite;
+}
+/* akhir profail */
+
+/* about */
+.about-title-1 {
+  padding-bottom: 50px;
+  padding-top: 25px;
+  background-color: rgb(0, 0, 0);
+}
+.body-dalam-1-about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+.img-3 {
+  object-fit: cover;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.8s;
+  filter: drop-shadow(0px 0px 100px rgb(35, 76, 180));
+  box-shadow: 0px 0px 30px rgb(151, 185, 240);
+}
+.img-3:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px rgb(65, 121, 212);
+  transition-duration: 0.8s;
+}
+.font-5 {
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Modak", system-ui;
+}
+.nama-nama {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.nama-anda {
+  color: rgb(152, 152, 152);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.tempat_margin {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.justifai-depan-body {
+  background: transparent;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.aling-aitems-body-about {
+  width: 458px;
+}
+.span-2 {
+  filter: drop-shadow(0px 0px 100px white);
+}
+.border-about {
+  border: none;
+  background: transparent;
+  filter: drop-shadow(0px 0px 95px rgb(18, 21, 198));
+  padding: 10px;
+}
+.button-project-title {
+  display: flex;
+  justify-content: center;
+}
+.font-6 {
+  font-size: 19px;
+  font-weight: 600;
+  color: black;
+  background-color: rgb(99, 99, 227);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Caesar Dressing", system-ui;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+.font-6:hover {
+  filter: drop-shadow(0px 0px 50px rgb(99, 99, 227));
+  transition-duration: 0.5s;
+}
+.icon-1 {
+  margin-bottom: 60px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 20px rgb(234, 255, 0));
+}
+.bi-emoji-grin-fill {
+  font-size: 40px;
+  color: rgb(216, 231, 98);
+}
+.my-profil-about-my-title {
+  background-color: rgb(0, 0, 0);
+}
+.font-about {
+  font-size: 60px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  font-family: "Modak", system-ui;
+  font-style: normal;
+}
+.font-about-utama {
+  font-size: 40px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-family: "Modak", system-ui;
+  font-style: normal;
+}
+.font-abou-1 {
+  color: white;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: "Grape Nuts", sans-serif;
+}
+.font-abou-2 {
+  color: white;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Grape Nuts", sans-serif;
+}
+/* tempat img */
+.img-5 {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+.img-5:hover {
+  filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
+}
+.tempat-bg-1 {
+  padding: 6px;
+}
+.body-dalam-card-about {
+  background-color: transparent;
+  height: 2290px;
+  width: 100%;
+  border-radius: 20px;
+  align-items: end;
+  display: flex;
+  align-items: end;
+}
+/* akhir img */
+/* akhir about */
+
+/*Tentang  */
+.font-11 {
+  font-size: 30px;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 10px solid white;
+  padding: 10px;
+  filter: drop-shadow(0px 0px 10px rgb(95, 93, 205));
+}
+.font-10 {
+  font-size: 25px;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.tentang-ditya-title {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.font-9 {
+  background: transparent;
+  box-shadow: 0px 0px 10px rgb(154, 155, 223);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+  text-align: justify;
+  transition-duration: 0.5s;
+}
+.font-9:hover {
+  box-shadow: 0px 0px 15px white;
+}
+/* akhir Tentang */
+
+/* sekils */
+.card-1 {
+  border: none;
+  padding: 10px;
+  box-shadow: 0px 0px 100px rgb(0, 81, 255);
+  border-radius: 20px;
+  text-align: justify;
+}
+
+.card-title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.img-4 {
+  object-fit: cover;
+  width: 100%;
+  background-color: transparent;
+}
+.img-js {
+  object-fit: cover;
+  width: 160px;
+  background-color: transparent;
+}
+.sekils-2 {
+  background-color: black;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.card-text {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.btn-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn-btn-a {
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Mochiy Pop One", sans-serif;
+  background: transparent;
+  box-shadow: 0px 0px 10px rgb(43, 0, 255);
+  padding: 10px;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  text-align: center;
+}
+.btn-btn-a:hover {
+  box-shadow: 0px 0px 10px white;
+}
+/* sekils persen akhir */
+.sekils-2-title {
+  background-color: black;
+  padding-bottom: 50px;
+}
+.font-13 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+}
+/* akhir persen akhir akhir */
+/* akhir sekils */
+
+/* kata aditya */
+.akhir-kata {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0px 0px 60px black;
+  filter: drop-shadow(0px 0px 30px black);
+}
+.font-ingat-kataditya {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Nightmare in Bolloland", sans-serif;
+  color: white;
+  filter: drop-shadow(0px 0px 50px blue);
+}
+.ditya-kata {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Nightmare in Bolloland", sans-serif;
+  color: black;
+  filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+.font-15 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: "Stranger", sans-serif;
+  color: white;
+  text-align: justify;
+}
+/* akhir kata ditya */
+
+/* prifil ditya */
+.span-6 {
+  font-size: 65px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Hawkeye", sans-serif;
+  filter: drop-shadow(0px 0px 5px blue);
+}
+.span-7 {
+  font-size: 85px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Hawkeye", sans-serif;
+  filter: drop-shadow(0px 0px 10px rgb(33, 33, 255));
+}
+.body-card-1 {
+  height: 718px;
+  display: flex;
+  align-items: center;
+}
+.img-body-dalam {
+  background-color: black;
+  width: 235px;
+  box-shadow: 0px 0px 50px black;
+}
+.img-6 {
+  width: 850px;
+  height: auto;
+  object-fit: cover;
+}
+.span-3 {
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "K1996 J", sans-serif;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0px 0px 1px black);
+}
+.join {
+  color: rgb(135, 236, 47);
+  font-weight: 400;
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.it {
+  color: rgb(255, 255, 0);
+  filter: drop-shadow(0px 0px 5px black);
+}
+.span-4 {
+  font-size: 80px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Amateur Dirty", sans-serif;
+}
+.button-1 {
+  display: flex;
+  justify-content: left;
+}
+.button-1 i {
+  padding-left: 15px;
+  color: rgb(177, 245, 42);
+}
+.span-5 {
+  font-size: 28px;
+  font-weight: 200;
+  font-style: normal;
+  font-family: "Modak", system-ui;
+  background: transparent;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+  padding: 15px;
+  padding-top: 20px;
+  border-radius: 30px;
+  transition-duration: 0.2s;
+  border: none;
+}
+.span-5:hover {
+  background-color: rgb(170, 255, 0);
+  box-shadow: 0px 0px 15px black;
+}
+.bg-3 {
+  background-color: black;
+  color: black;
+  height: 60px;
+  box-shadow: 0px 0px 50px black;
+}
+/* akhir profile ditya */
+
+/* icon */
+.contack-2 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+  filter: drop-shadow(0px 0px 10px rgb(3, 62, 255));
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border: none;
+}
+.icon-2 {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 0px 10px rgb(0, 47, 255));
+}
+.icon-3 {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 0px 10px rgb(0, 47, 255));
+}
+.icon-4 {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 0px 10px rgb(230, 255, 86));
+}
+.icon-5 {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 0px 10px rgb(0, 47, 255));
+}
+.icon-6 {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 0px 10px rgb(0, 51, 255));
+}
+/* akhir icon */
+
+/* contack */
+.la-class{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: "Megah Diterima", sans-serif;
+}
+.la{
+  font-size: 35px;
+}
+.font-font{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: "Megah Diterima", sans-serif;
+}
+.img-7 {
+  width: 100px;
+  height: auto;
+}
+.contack-title {
+  background-color: black;
+  height: 100vh;
+  padding-top: 30px;
+  padding: 20px;
+}
+.judul {
+  color: white;
+  font-size: 19px;
+  font-style: normal;
+  font-family: "Megah Diterima", sans-serif;
+}
+.article {
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: "Megah Diterima", sans-serif;
+  transition-duration: 0.2s;
+}
+.article:hover {
+  color: orange;
+}
+.judul-article {
+  color: white;
+  font-size: 19px;
+  font-style: normal;
+  font-family: "Megah Diterima", sans-serif;
+}
+li {
+  color: white;
+}
+.article-perjalanan {
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: "Megah Diterima", sans-serif;
+}
+.text {
+  text-align: justify;
+}
+.icon-7 {
+  color: white;
+  font-size: 30px;
+  padding-right: 20px;
+}
+.icon-8 {
+  color: white;
+  transition-duration: 0.3s;
+}
+.icon-8:hover{
+  color: orange;
+}
+.button-wa {
+  background-color: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 30px;
+  transition-duration: 0.2s;
+}
+.button-wa:hover {
+  background-color: orange;
+  color: white;
+}
+.button-wa i {
+  padding-right: 10px;
+  font-size: 19px;
+}
+.span_1 {
+  font-size: 15px;
+  font-weight: 200;
+  padding-top: 4px;
+  font-style: normal;
+  font-family: "Megah Diterima", sans-serif;
+}
+.icon-9 {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+.span-span-akhir {
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  font-family: "The Saroja", sans-serif;
+}
+/* akhir contak */
